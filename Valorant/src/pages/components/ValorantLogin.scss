@@ -1,0 +1,230 @@
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.container {
+  background: rgba(58, 63, 68, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.1);
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-family: "museo-slab";
+  font-size: 24px;
+  text-align: center;
+  padding: 20px 20px 0;
+  margin: 0;
+  color: #fff;
+}
+
+.login-item {
+  color: #fff;
+  padding: 25px 25px 0;
+  margin: 20px 20px 0;
+  border-radius: 3px;
+}
+
+input {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.user-icon,
+.lock-icon,
+.email-icon,
+.phone-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.form input[type="password"],
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form input[type="submit"] {
+  width: 100%;
+}
+
+.form-login label,
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="submit"],
+.form-signup label,
+.form-signup input[type="text"],
+.form-signup input[type="password"],
+.form-signup input[type="email"],
+.form-signup input[type="tel"],
+.form-signup input[type="submit"] {
+  border-radius: 0.25rem;
+  padding: 1rem;
+  color: #3A3F44;
+}
+
+.form-login label {
+  background-color: #222222;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.form-signup label {
+  background-color: #222222;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"] {
+  background-color: #ffffff;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.form-signup input[type="text"],
+.form-signup input[type="password"],
+.form-signup input[type="email"],
+.form-signup input[type="tel"] {
+  background-color: #ffffff;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.form-login input[type="text"]:focus,
+.form-login input[type="text"]:hover,
+.form-login input[type="password"]:focus,
+.form-login input[type="password"]:hover {
+  background-color: #eeeeee;
+}
+
+.form-signup input[type="text"]:focus,
+.form-signup input[type="text"]:hover,
+.form-signup input[type="password"]:focus,
+.form-signup input[type="password"]:hover,
+.form-signup input[type="email"]:focus,
+.form-signup input[type="email"]:hover,
+.form-signup input[type="tel"]:focus,
+.form-signup input[type="tel"]:hover {
+  background-color: #eeeeee;
+}
+
+.form-login input[type="submit"] {
+  background-color: #00B9BC;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-signup input[type="submit"] {
+  background-color: #00B9BC;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-login input[type="submit"]:focus,
+.form-login input[type="submit"]:hover {
+  background-color: #197071;
+}
+
+.form-signup input[type="submit"]:focus,
+.form-signup input[type="submit"]:hover {
+  background-color: #197071;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.additional-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.forgot-password a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sign-up a {
+  color: #00B9BC;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.gmail-button {
+  background-color: #db4a39;
+  color: #fff;
+}
+
+.facebook-button {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.social-button i {
+  margin-right: 0.5rem;
+}
+
+.logo-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  margin: 0 5px;
+  width: auto;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-sizing: border-box;
+  object-fit: contain;
+}
